@@ -7,8 +7,8 @@ class App extends Component {
     return (
       <>
         <ol>
-          {this.places.map((place, index) => {
-            <li key={`location${index + 1}`}>{place}</li>;
+          {places.map((place, index) => {
+            <li key={`location${index + 1}`}>{place}</li>
           })}
         </ol>
       </>
